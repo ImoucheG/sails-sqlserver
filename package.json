@@ -1,7 +1,7 @@
 {
   "_args": [
     [
-      "git+https://github.com/ImoucheG/sails-sqlserver.git",
+      "git+https://github.com/ImoucheG/sails-sqlserver.git"
     ]
   ],
   "_from": "git+https://github.com/ImoucheG/sails-sqlserver.git",
