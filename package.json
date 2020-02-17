@@ -2,7 +2,6 @@
   "_args": [
     [
       "git+https://github.com/ImoucheG/sails-sqlserver.git",
-      "D:\\developments\\semaphore-web\\trunk\\Administration-Semaphore"
     ]
   ],
   "_from": "git+https://github.com/ImoucheG/sails-sqlserver.git",
@@ -29,7 +28,6 @@
   ],
   "_resolved": "git+https://github.com/ImoucheG/sails-sqlserver.git#a9968e9214698ff24a730deb632a4973ea4f810b",
   "_spec": "git+https://github.com/ImoucheG/sails-sqlserver.git",
-  "_where": "D:\\developments\\semaphore-web\\trunk\\Administration-Semaphore",
   "author": {
     "name": "Travis Webb",
     "email": "tjwebb@cnectdata.com"
