@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/ImoucheG/sails-sqlserver.git",
+      "D:\\developments\\semaphore-web\\trunk\\Administration-Semaphore"
+    ]
+  ],
+  "_from": "git+https://github.com/ImoucheG/sails-sqlserver.git",
+  "_id": "sails-sqlserver@git+https://github.com/ImoucheG/sails-sqlserver.git#a9968e9214698ff24a730deb632a4973ea4f810b",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/sails-sqlserver",
+  "_phantomChildren": {
+    "@sailshq/lodash": "3.10.4",
+    "escape-string-regexp": "1.0.5",
+    "has-ansi": "2.0.0",
+    "rc": "1.2.8"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/ImoucheG/sails-sqlserver.git",
+    "rawSpec": "git+https://github.com/ImoucheG/sails-sqlserver.git",
+    "saveSpec": "git+https://github.com/ImoucheG/sails-sqlserver.git",
+    "fetchSpec": "https://github.com/ImoucheG/sails-sqlserver.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ImoucheG/sails-sqlserver.git#a9968e9214698ff24a730deb632a4973ea4f810b",
+  "_spec": "git+https://github.com/ImoucheG/sails-sqlserver.git",
+  "_where": "D:\\developments\\semaphore-web\\trunk\\Administration-Semaphore",
+  "author": {
+    "name": "Travis Webb",
+    "email": "tjwebb@cnectdata.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cnect/sails-sqlserver/issues"
+  },
+  "bundleDependencies": [
+    "lodash",
+    "mssql",
+    "underscore.string",
+    "waterline-cursor"
+  ],
+  "contributors": [
+    {
+      "name": "balderdashy"
+    },
+    {
+      "name": "Stuart Welham"
+    },
+    {
+      "name": "wxactly"
+    },
+    {
+      "name": "Seich"
+    },
+    {
+      "name": "tjwebb"
+    },
+    {
+      "name": "jaredfromsubway"
+    }
+  ],
+  "dependencies": {
+    "captains-log": "^2.0.2",
+    "lodash": "^4.17.15",
+    "mssql": "^5.1.0",
+    "underscore.string": "^3.3.5",
+    "waterline-cursor": "0.0.7"
+  },
+  "description": "Official SQL Server Adapter for Sails / Waterline",
+  "devDependencies": {
+    "mocha": "*",
+    "waterline-adapter-tests": "git://github.com/tjwebb/waterline-adapter-tests.git"
+  },
+  "homepage": "https://github.com/cnect/sails-sqlserver#readme",
+  "keywords": [
+    "cnect",
+    "sails",
+    "sails-mssql",
+    "sails-sqlserver",
+    "sql server",
+    "sqlserver",
+    "microsoft",
+    "azure",
+    "adapter",
+    "waterline",
+    "sails.js",
+    "mssql",
+    "sqlserver"
+  ],
+  "license": "MIT",
+  "main": "lib/adapter.js",
+  "name": "sails-sqlserver",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cnect/sails-sqlserver.git"
+  },
+  "scripts": {
+    "test": "node test/integration/runner -R spec -b"
+  },
+  "version": "0.10.10",
+  "waterlineAdapter": {
+    "type": "sails-sqlserver",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
